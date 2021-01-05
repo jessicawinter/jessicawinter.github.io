@@ -21,7 +21,7 @@ body {
 #avatar {
     height: 180px;
     border-radius: 100%;
-    border: 5px solid white;
+    border: 2px solid white;
     margin-bottom: 40px;
     margin-top: 100px;
 }
@@ -134,10 +134,10 @@ a:hover {
    color: white; 
    margin-left: calc(50% - 130px);
    margin-top: 10px;
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
-    border: #ffffff solid 3px;
+   -webkit-border-radius: 500ms;
+   -moz-border-radius: 500ms;
+   border-radius: 500ms;
+    border: #ffffff solid 2px;
 }
 .bubbler
 {
@@ -151,5 +151,5 @@ a:hover {
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
-    border: #ffffff solid 3px;
+    border: #ffffff solid 2px;
 }

@@ -137,35 +137,7 @@ a:hover {
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
-    border: #ffffff solid 5px;
-}
-
-.bubble:after
-{
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 12px 21px 12px 0;
-    border-color: transparent #000000;
-    display: block;
-    width: 0;
-    z-index: 1;
-    left: -20px;
-    top: 5px;
-}
-
-.bubble:before
-{
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 16px 25px 16px 0;
-    border-color: transparent #ffffff;
-    display: block;
-    width: 0;
-    z-index: 0;
-    left: -20px;
-    top: 5px;
+    border: #ffffff solid 3px;
 }
 .bubbler
 {
@@ -179,33 +151,5 @@ a:hover {
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
-    border: #ffffff solid 5px;
-}
-
-.bubbler:after
-{
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 12px 0 12px 21px;
-    border-color: transparent #000000;
-    display: block;
-    width: 0;
-    z-index: 1;
-    right: -20px;
-    top: 5px;
-}
-
-.bubbler:before
-{
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 16px 0 16px 25px;
-    border-color: transparent #ffffff;
-    display: block;
-    width: 0;
-    z-index: 0;
-    right: -20px;
-    top: 5px;
+    border: #ffffff solid 3px;
 }

@@ -139,17 +139,3 @@ a:hover {
    border-radius: 5px;
     border: #ffffff solid 2px;
 }
-.bubbler
-{
-   position: relative;
-   width: 260px;
-   height: 26px;
-   padding: 0px;
-   color: white;
-   margin-left: calc(50% - 130px);
-   margin-top: 10px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-    border: #ffffff solid 2px;
-}

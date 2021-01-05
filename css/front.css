@@ -134,9 +134,9 @@ a:hover {
    color: white; 
    margin-left: calc(50% - 130px);
    margin-top: 10px;
-   -webkit-border-radius: 500ms;
-   -moz-border-radius: 500ms;
-   border-radius: 500ms;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
     border: #ffffff solid 2px;
 }
 .bubbler
@@ -148,8 +148,8 @@ a:hover {
    color: white;
    margin-left: calc(50% - 130px);
    margin-top: 10px;
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
     border: #ffffff solid 2px;
 }

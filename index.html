@@ -14,7 +14,9 @@ permalink: /
         <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
         {% endif %}
         <link rel="stylesheet" href="{{ "/css/front.css" | prepend: site.baseurl }}">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
     </head>
     <body>
@@ -24,7 +26,7 @@ permalink: /
             {% endif %}
 
             {% if site.avatar %}
-                <img src="{{ site.avatar_img_path }}" id="avatar">
+            <img src="{{ site.avatar_img_path }}" id="avatar">
             {% endif %}
 
             <h1>{{ site.name }}</h1>
@@ -61,6 +63,10 @@ permalink: /
                     
                     {% if site.github_username %}
                     <li><a class="fab fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
+                    {% endif %}
+
+                    {% if site.orcid_username %}
+                    <li><a class="fab fa-2x fa-orcid" href="https://orcid.org/{{ site.orcid_username }}"><span class="description">ORCiD</span></a></li>
                     {% endif %}
 
                     {% if site.codepen_username %}

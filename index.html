@@ -52,6 +52,10 @@ permalink: /
                     {% if site.telegram_username %}
                     <li><a class="fab fa-2x fa-telegram-plane" href="https://t.me/{{ site.telegram_username }}"><span class="description">Telegram</span></a></li>
                     {% endif %}
+
+                    {% if site.threema_username %}
+                    <li><a class="fas fa-2x fa-comments" href="https://threema.id/{{ site.threema_username }}"><span class="description">Threema</span></a></li>
+                    {% endif %}
                     
                     {% if site.email %}
                     <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>

@@ -137,7 +137,7 @@ a:hover {
 .description {
     display: inline-block;
     color: white;
-    font-family: Arial;
+    font-family: 'Source Sans 3';
     margin-left: 40px;
 }
 .content {

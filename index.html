@@ -13,14 +13,14 @@ permalink: /
         {% if site.favicon_img %}
         <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
         {% endif %}
-        <link rel="stylesheet" href="{{ "/css/front.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ '/css/front.css' | prepend: site.baseurl }}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+        <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">-->
     </head>
     <body>
-        <div class="content">
+        <div id="content">
             {% if site.front_img %}
             <img src="{{ site.front_img_path }}" id="fullscreen">
             {% endif %}
@@ -46,7 +46,8 @@ permalink: /
                     {% endif %}
                     
                     {% if site.linkedin_username %}
-                    <li><a class="fab fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="description">LinkedIn</span></a></li>
+                    <!--<li><a class="fab fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="description">LinkedIn</span></a></li>-->
+                    <li><a href="https://linkedin.com/in/{{ site.linkedin_username }}"><img src="imgs/linkedin.svg"><span class="description">LinkedIn</span></a></li>
                     {% endif %}
                     
                     {% if site.telegram_username %}
@@ -58,16 +59,12 @@ permalink: /
                     <!-- {% endif %} -->
 
                     {% if site.threema_username %}
-                    <li>
-                        <a class="threema" href="https://threema.id/{{ site.threema_username }}">
-                            <img src="imgs/threema.svg">
-                            <span class="description">Threema</span>
-                        </a>
-                    </li>
+                    <li><a href="https://threema.id/{{ site.threema_username }}"><img src="imgs/threema.svg"><span class="description">Threema</span></a></li>
                     {% endif %}
                     
                     {% if site.email %}
-                    <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
+                    <!--<li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>-->
+                    <li><a href="mailto:{{ site.email }}"><img src="imgs/email.svg"><span class="description">Email</span></a></li>
                     {% endif %}
                     
                     {% if site.public_key_url %}
@@ -79,7 +76,8 @@ permalink: /
                     {% endif %}
 
                     {% if site.orcid_username %}
-                    <li><a class="fab fa-2x fa-orcid" href="https://orcid.org/{{ site.orcid_username }}"><span class="description">ORCiD</span></a></li>
+                    <!--<li><a class="fab fa-2x fa-orcid" href="https://orcid.org/{{ site.orcid_username }}"><span class="description">ORCiD</span></a></li>-->
+                    <li><a href="https://orcid.org/{{ site.orcid_username }}"><img src="imgs/orcid.svg"><span class="description">ORCiD</span></a></li>
                     {% endif %}
 
                     {% if site.codepen_username %}

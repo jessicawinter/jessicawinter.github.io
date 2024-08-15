@@ -1,7 +1,7 @@
 # Site settings
 name: Jessica Winter
 title: Jessica Winter
-description: "<i class=\"fas fa-map-marker-alt\"></i>  Bremen, Germany"
+description: "<img src=\"imgs/location.svg\" style=\"height:1em;\">  Bremen, Germany"
 url: ""
 
 
